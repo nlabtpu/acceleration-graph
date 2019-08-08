@@ -22,7 +22,7 @@ const options = {
   },
   animation: false,
   onClick: function(event, elements) {
-    flag = not flag;
+    flag = !flag;
   }
 };
 
