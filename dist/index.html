@@ -35,7 +35,7 @@
     return {x, y, z, a, b, c};
   };`);
   window.addEventListener("devicemotion", e => {
-    if(not flag)return;
+    if(!flag)return;
     const _s = getVueRateSec();
     if (s !== _s) {
       // 更新頻度を遅くする
